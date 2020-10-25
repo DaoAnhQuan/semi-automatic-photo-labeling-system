@@ -1,0 +1,37 @@
+<annotation>
+	<folder>E:\source\PROJECT\22_oanhnt\backend\image/headsets</folder>
+	<filename>E:\source\PROJECT\22_oanhnt\backend\image/headsets/img_1.jpg</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>371</width>
+		<height>660</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>119</xmin>
+			<ymin>10</ymin>
+			<xmax>357</xmax>
+			<ymax>342</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>224</ymin>
+			<xmax>649</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+</annotation>

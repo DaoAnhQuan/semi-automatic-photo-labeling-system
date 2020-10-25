@@ -3,9 +3,13 @@ cffi==1.14.0
 cryptography==2.9.2
 Django==3.0.5
 django-cors-headers==3.2.1
+django-environ==0.4.5
 django-rest-knox==4.1.0
 djangorestframework==3.11.0
+mysqlclient==1.4.6
 pycparser==2.20
+python-http-client==3.2.7
 pytz==2020.1
+sendgrid==6.3.1
 six==1.14.0
 sqlparse==0.3.1

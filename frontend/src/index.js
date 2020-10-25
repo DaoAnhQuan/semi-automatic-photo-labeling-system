@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { App } from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunkMiddleware from 'redux-thunk';
+import reducer from './_reducers';
+import {NetworkService} from "./network-service";
+const store = createStore(reducer, applyMiddleware(thunkMiddleware));
+
+NetworkService.setupInterceptors(store);
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Provider store={store}>
+        <App />
+    </Provider>
+    , document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

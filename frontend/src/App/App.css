@@ -1,0 +1,121 @@
+@import '~antd/dist/antd.css';
+#components-layout-demo-fixed .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+.footer {
+  text-align: center;
+  background-color: #fff;
+}
+.sign-in-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 72px;
+  background-color: #fff;
+}
+.sign-up-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 36px;
+  background-color: #fff;
+}
+.forgot-password-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 108px;
+  background-color: #fff;
+}
+.reset-password-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 108px;
+  background-color: #fff;
+}
+.project-list{
+  background-color: #fff;
+  margin: auto;
+  min-height: 74vh;
+  padding: 24px;
+}
+.project-new{
+  background-color: #fff;
+  margin: auto;
+  min-height: 74vh;
+  padding: 24px;
+  position: relative;
+}
+.project-new .steps-action {
+  position: absolute;
+  bottom:16px;
+  right:32px;
+}
+.project-over-view-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 108px;
+}
+.project-data-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 108px;
+}
+.verify-form {
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 108px;
+  background-color: #fff;
+}
+.change-password-form {
+  width: 420px;
+  margin: auto;
+  margin-top: 72px;
+  background-color: #fff;
+}
+.project-detail {
+  background-color: #fff;
+  margin: auto;
+  min-height: 74vh;
+  padding: 24px;
+}
+.spin-project {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  margin: 20px 0;
+  height: 100vh;
+  padding-top: 40vh;
+}
+.account-menu{
+  display: flex;
+  line-height: initial;
+  height: -webkit-fill-available;
+  align-items: center;
+  color: white;
+  cursor:pointer;
+}
+.account-dropdown-icon{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.account-info{
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
